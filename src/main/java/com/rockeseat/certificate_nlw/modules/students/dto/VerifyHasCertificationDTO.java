@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class VerifyHasCertificationDTO {
     private String email;
-    private String technology;
+    private String technology; 
 
 }

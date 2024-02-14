@@ -23,10 +23,10 @@ public class StudentController {
     public String verifyIdHasCertification(@RequestBody VerifyHasCertificationDTO verifyHasCertificationDTO){
         var result = this.verifyIfHasCertificationUseCase.execute(verifyHasCertificationDTO);
 
-        if(result ){
-            return "O aluno pode fazer a prova";     
+        if(result){
+            return "O aluno pode fazer a prova";         
         }
-        return "O aluno não pode fazer a prova";     
- 
+        return "O aluno map pode fazer a prova";         
+
     } 
 }
